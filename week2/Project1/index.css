@@ -1,0 +1,19 @@
+h1 {
+    color:darkgreen;
+    font-family: georgia;
+}
+h3{
+    font-family: georgia;
+}
+a:hover, a:active{
+    text-decoration: underline;
+}
+p{
+    height: 25px;
+}
+img{
+    float:left;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}

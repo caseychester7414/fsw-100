@@ -1,0 +1,96 @@
+.navbar {
+    overflow:hidden;
+    background-color: lightblue;
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: 100px;
+}
+.navar a{
+    float:top;
+    display:block;
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+div {
+    text-align: center;
+}
+body {
+    font-family: Arial;
+    padding: 20px;
+    background: #f1f1f1;
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {
+    float: left;
+    width: 75%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+  }
+  
+  /* Fake image */
+  .fakeimg {
+    background-color: #aaa;
+    width: 25%;
+    padding: 20px;
+    float:left;
+    height:100px;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    width:700px;
+  }
+  .donkey{
+    background-color: white;
+    padding:20px;
+    margin-top: 20px;
+    width:700px;
+  }
+  .blake{
+    background-color: white;
+    padding: 20px;
+    margin-top:20px;
+    width:750px;
+  }
+  .pizza {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    width:750px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+  }

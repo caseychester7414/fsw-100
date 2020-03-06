@@ -14,9 +14,7 @@
     padding: 14px 16px;
     text-decoration: none;
 }
-div {
-    text-align: center;
-}
+
 body {
     font-family: Arial;
     padding: 20px;
@@ -29,63 +27,41 @@ body {
     font-size: 40px;
     text-align: center;
     background: white;
+    border:25px black;
   }
   
-  /* Create two unequal columns that floats next to each other */
-  /* Left column */
-  .leftcolumn {
-    float: left;
-    width: 75%;
-  }
-  
-  /* Right column */
-  .rightcolumn {
-    float: left;
-    width: 25%;
-    padding-left: 20px;
-  }
-  
-  /* Fake image */
-  .fakeimg {
-    background-color: #aaa;
-    width: 25%;
-    padding: 20px;
-    float:left;
-    height:100px;
-  }
+
   
   /* Add a card effect for articles */
   .card {
-    background-color: white;
+    background-color: lightskyblue;
     padding: 20px;
     margin-top: 20px;
-    width:700px;
+    width:700px
   }
   .donkey{
-    background-color: white;
+    background-color: greenyellow;
     padding:20px;
     margin-top: 20px;
     width:700px;
   }
   .blake{
-    background-color: white;
+    background-color: red;
     padding: 20px;
     margin-top:20px;
-    width:750px;
+    width:900px;
+
   }
   .pizza {
-    background-color: white;
+    background-color: rebeccapurple;
     padding: 20px;
     margin-top: 20px;
-    width:750px;
+    width:900px;
+  
+
   }
   
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+
   
   /* Footer */
   .footer {
@@ -93,4 +69,63 @@ body {
     text-align: center;
     background: #ddd;
     margin-top: 20px;
+  
   }
+img{
+  width: 50%;
+  height: auto;
+  margin: 10px;
+  /* float: left; */
+}
+
+.wrapper{
+  display:flex;
+  /* grid-template-columns: 50% 50%; */
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 75px 75px 75px 75px;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.item1 {
+  grid-column: span 4;
+  background-color:#F5C6D6;
+}
+.item2{
+  background-color: #EE2E84;
+}
+.item3{
+  background-color: #EE2E84;
+}
+.item4{
+  background-color: #EE2E84;
+}
+.item5{
+  background-color: #EE2E84;
+}
+.item6, .item7{
+  background-color: #85CFD8;
+  grid-column: span 2;
+}
+.item8{
+  background-color: #8DC63F;
+  grid-column: span 3;
+}
+.item9{
+  grid-column: span 1;
+  background-color: #E76E34;
+}
+
+
+
+

@@ -1,0 +1,84 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 75px 75px 75px 75px;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+  
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  .item1 {
+    grid-column: span 4;
+    background-color:#F5C6D6;
+  }
+  .item2{
+    background-color: #EE2E84;
+  }
+  .item3{
+    background-color: #EE2E84;
+  }
+  .item4{
+    background-color: #EE2E84;
+  }
+  .item5{
+    background-color: #EE2E84;
+  }
+  .item6, .item7{
+    background-color: #85CFD8;
+    grid-column: span 2;
+  }
+  .item8{
+    background-color: #8DC63F;
+    grid-column: span 3;
+  }
+  .item9{
+    grid-column: span 1;
+    background-color: #E76E34;
+  }
+
+  @media only screen and (max-width: 768px){
+    /* .item1 {
+      grid-column: span 4;
+    }
+    .item2 {
+      grid-column: span 4;
+    }
+    .item3 {
+      grid-column: span 4;
+    }
+    .item4 {
+      grid-column: span 4;
+    }
+    .item5 {
+      grid-column: span 4;
+    }
+    .item6 {
+      grid-column: span 4;
+    }
+    .item7 {
+      grid-column: span 4;
+    }
+    .item8 {
+      grid-column: span 4;
+    }
+    .item9 {
+      grid-column: span 4;
+    }
+
+ */
+ .grid-container {
+ grid-template-columns: auto;
+ 
+}
+.item1, .item6, .item7,.item8{
+   grid-column: span 1; 
+}
+
+
+  }

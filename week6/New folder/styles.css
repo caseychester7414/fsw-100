@@ -1,0 +1,45 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 75px 75px 75px 75px;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+  
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  .item1:hover {
+    Height: 250px;
+    grid-column: span 4;
+    background-color:rgb(16, 231, 106);
+  }
+  .item2:hover{
+      height: 150px;
+    grid-column: span 2;
+    background-color: darkcyan;
+  }
+  .item3:hover{
+      height: 150px;
+    grid-column: span 3;
+    background-color: green;
+  }
+  .item4:hover{
+      height: 350px;
+    grid-column: span 2;
+    background-color: grey;
+  }
+  .item5:hover{
+      height: 75px;
+    grid-column: span 4;
+    background-color: red;
+  }
+  .item6:hover{
+      height:10px;
+    grid-column: span 5;
+    background-color: rgb(238, 20, 227);
+  }

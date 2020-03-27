@@ -68,7 +68,9 @@ header a {
     text-decoration: none;
     color: black;
 }
-
+table, th, td{
+    border:1px solid black;
+}
 
 
 #hero {
@@ -82,3 +84,14 @@ header a {
 #contact {
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/canyon.jpg');
 }
+
+@media only screen and (max-width: 600px) {
+
+}
+@media only screen and (max-width: 768px) {
+
+}
+@media only screen and (max-width: 1200px) {
+
+}
+
